@@ -69,7 +69,7 @@ Omrails::Application.configure do
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
   # Trying a stack overflow fix
-    Paperclip.options[:command_path] = "/usr/local/bin/"
+    Paperclip.options[:command_path] = "/usr/local/bin/identify"
 
   # Configuring Amazon S3 for Paperclip file uploads
   config.paperclip_defaults = {
